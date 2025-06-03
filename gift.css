@@ -1,0 +1,300 @@
+.announcement {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  width: 15px;
+  background-color: #FFF031;
+  gap: 50px;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  color: rgb(0, 90, 0);
+}
+
+
+
+.announcement p {
+  margin-left: 130px;
+
+}
+
+.slash-bar {
+  background-color: aliceblue;
+  width: 100%;
+  height: 5%;
+  margin-bottom: -0.5rem;
+
+}
+
+.slash-bar-text {
+  padding-left: 3.5%;
+
+  color: rgb(1, 92, 1);
+
+}
+
+.slash-bar-text h5 {
+  font-weight: 500;
+}
+
+.background-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.background-container img {
+  height: 100%;
+  width: 1521px;
+}
+
+
+.background-container button {
+  position: absolute;
+  top: 50%;
+  /* Center vertically */
+  left: 50%;
+  /* Center horizontally */
+  transform: translate(-50%, 200%);
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: #029153;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 4px;
+  text-transform: uppercase;
+  transition: background 0.4s ease-in-out;
+}
+
+.background-container button:hover {
+  box-shadow: none;
+  background-color: #0a4c36;
+  transition-delay: var(--duration-default);
+
+}
+
+.background-container button:hover:hover {
+  background: #0A4C36;
+}
+
+
+
+
+/* Shine Effect */
+.background-container button:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -110%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: skewX(-30deg);
+  transition: left 0.7s ease-in-out;
+}
+
+.background-container button:hover::after {
+  left: 120%;
+}
+
+.box {
+  padding: 40px 30px;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #029153;
+  /* Thin black border */
+  padding: 20px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+.box img {
+
+  margin-right: 15%;
+  margin-left: 28%;
+  margin-top: -1%;
+}
+
+.box-container {
+  display: flex;
+}
+
+.box p {
+  text-align: center;
+  width: 100%;
+  margin-top: -9px;
+}
+
+.avn p {
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 10%;
+  color: #000000bc;
+  text-align: center;
+}
+
+.adv {
+  gap: 200px;
+  margin-left: 208px;
+  display: flex;
+}
+
+
+.bestseller h2 {
+  width: 100%;
+  align-items: center;
+  font-weight: 600;
+  color: #0A4C36;
+}
+
+.products-row2 {
+  gap: 10px;
+  display: flex;
+  margin-left: 0%;
+  height: 20%;
+  width: 100%;
+}
+
+.img1 {
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+.info {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  background-color: #EFF8F2;
+  width: 45%;
+  margin-top: 6.5%;
+
+}
+
+.container1 {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+}
+
+.img2 {
+  width: 46%;
+  padding-top: 100px;
+}
+
+
+.info2 {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  background-color: #EFF8F2;
+  width: 45%;
+  margin-top: 6.5%;
+  margin-left: 4%;
+}
+
+.carousel-container {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-track {
+  display: flex;
+  overflow: hidden;
+  width: 300px;
+}
+
+.carousel-item {
+  min-width: 100px;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+}
+
+.stars {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.join2 img {
+  margin-top: 3.5%;
+  margin-right: 4.6666%;
+  height: 550px;
+  object-fit: cover;
+}
+
+.join2 {
+  background-color: rgba(227, 246, 246, 0.479);
+  height: 650px;
+  display: flex;
+  gap: 110px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.345);
+}
+
+.gap4 {
+  pad: 5%;
+}
+
+.refer {
+  margin-left: 5%;
+  width: 60%;
+}
+
+.refer h3 {
+  margin-top: 30%;
+  font-size: 35px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #003a0ad6;
+}
+
+.re {
+  background-color: #029354;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  width: 20%;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+}
