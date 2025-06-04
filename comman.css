@@ -303,8 +303,7 @@ a:hover {
 
 /* Responsive styles */
 
-@media (max-width:360.98px) {
-
+@media (max-width: 360.98px) {
   .view {
     display: none;
   }
@@ -336,7 +335,6 @@ a:hover {
 
   .drop {
     margin-top: 15px;
-
   }
 
   .drop-content,
@@ -349,7 +347,6 @@ a:hover {
     padding: 20px;
     z-index: 1;
     animation: slideUp 0.3s ease forwards !important;
-
   }
 
   .drop-content li,
@@ -502,10 +499,9 @@ a:hover {
     overflow-x: auto;
     padding: 10px;
     scroll-behavior: smooth;
-
   }
 
-  .seller{
+  .seller {
     margin-left: -13px;
   }
 
@@ -544,7 +540,6 @@ a:hover {
 
   .card .price {
     font-size: 16px;
-
   }
 
   .card h5 {
@@ -601,7 +596,6 @@ a:hover {
   .cento {
     width: 408px !important;
     /* margin-left: 18%; */
-
   }
 
   .announcement {
@@ -690,7 +684,6 @@ a:hover {
     display: none;
   }
 
-
   .plant-div p,
   span {
     font-size: 14px;
@@ -764,7 +757,6 @@ a:hover {
     margin-top: -3%;
   }
 
-
   .container2 {
     display: block;
     height: 247px;
@@ -782,11 +774,9 @@ a:hover {
     margin-left: 4%;
     margin-top: 97.5%;
   }
-
 }
 
-@media (max-width:390.98px) {
-
+@media (max-width: 390.98px) {
   .view {
     display: none;
   }
@@ -818,7 +808,6 @@ a:hover {
 
   .drop {
     margin-top: 15px;
-
   }
 
   .drop-content,
@@ -831,7 +820,6 @@ a:hover {
     padding: 20px;
     z-index: 1;
     animation: slideUp 0.3s ease forwards !important;
-
   }
 
   .drop-content li,
@@ -984,10 +972,9 @@ a:hover {
     overflow-x: auto;
     padding: 10px;
     scroll-behavior: smooth;
-
   }
 
-  .seller{
+  .seller {
     margin-left: -13px;
   }
 
@@ -1026,7 +1013,6 @@ a:hover {
 
   .card .price {
     font-size: 16px;
-
   }
 
   .card h5 {
@@ -1083,7 +1069,6 @@ a:hover {
   .cento {
     width: 408px !important;
     /* margin-left: 18%; */
-
   }
 
   .announcement {
@@ -1172,7 +1157,6 @@ a:hover {
     display: none;
   }
 
-
   .plant-div p,
   span {
     font-size: 14px;
@@ -1246,7 +1230,6 @@ a:hover {
     margin-top: -3%;
   }
 
-
   .container2 {
     display: block;
     height: 247px;
@@ -1264,7 +1247,6 @@ a:hover {
     margin-left: 4%;
     margin-top: 97.5%;
   }
-
 }
 
 @media (max-width: 430.98px) {
@@ -1299,7 +1281,6 @@ a:hover {
 
   .drop {
     margin-top: 15px;
-
   }
 
   .drop-content,
@@ -1312,7 +1293,6 @@ a:hover {
     padding: 20px;
     z-index: 1;
     animation: slideUp 0.3s ease forwards !important;
-
   }
 
   .drop-content li,
@@ -1465,7 +1445,6 @@ a:hover {
     overflow-x: auto;
     padding: 10px;
     scroll-behavior: smooth;
-
   }
 
   .seller h2 {
@@ -1502,7 +1481,6 @@ a:hover {
 
   .card .price {
     font-size: 16px;
-
   }
 
   .card h5 {
@@ -1559,7 +1537,6 @@ a:hover {
   .cento {
     width: 408px !important;
     /* margin-left: 18%; */
-
   }
 
   .announcement {
@@ -1648,7 +1625,6 @@ a:hover {
     display: none;
   }
 
-
   .plant-div p,
   span {
     font-size: 14px;
@@ -1705,7 +1681,6 @@ a:hover {
     display: none !important;
   }
 
-
   .container1 {
     display: block;
   }
@@ -1722,7 +1697,6 @@ a:hover {
     margin-left: 4.5%;
     margin-top: -3%;
   }
-
 
   .container2 {
     display: block;
@@ -1741,9 +1715,6 @@ a:hover {
     margin-left: 4%;
     margin-top: 97.5%;
   }
-
-
-
 }
 
 @media (max-width: 575.98px) {
@@ -1754,7 +1725,6 @@ a:hover {
   .respo {
     display: contents !important;
     background-color: rgb(255, 247, 238);
-
   }
 
   .cen {
@@ -1775,7 +1745,6 @@ a:hover {
 
   .drop {
     margin-top: 18px;
-
   }
 
   .drop-content,
@@ -1788,7 +1757,6 @@ a:hover {
     padding: 20px;
     z-index: 1;
     animation: slideUp 0.3s ease forwards !important;
-
   }
 
   .drop-content li,
@@ -1916,7 +1884,6 @@ a:hover {
 
   .demo {
     display: contents !important;
-
   }
 
   .cd {
@@ -1969,7 +1936,6 @@ a:hover {
   .cento {
     width: 408px !important;
     /* margin-left: 18%; */
-
   }
 
   .announcement {
@@ -2048,8 +2014,6 @@ a:hover {
   .join {
     display: none;
   }
-
 }
-
 
 /* first end */
