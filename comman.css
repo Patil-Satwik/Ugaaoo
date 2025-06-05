@@ -804,6 +804,10 @@ a:hover {
     font-size: 30px;
   }
 
+  .seller {
+    margin-left: -11px;
+  }
+
   .card {
     flex: 0 0 auto;
     width: 180px;
