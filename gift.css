@@ -4,7 +4,7 @@
   font-weight: 400;
   font-style: normal;
   width: 15px;
-  background-color: #FFF031;
+  background-color: #fff031;
   gap: 50px;
   display: flex;
   width: 100%;
@@ -13,11 +13,8 @@
   color: rgb(0, 90, 0);
 }
 
-
-
 .announcement p {
   margin-left: 130px;
-
 }
 
 .slash-bar {
@@ -25,14 +22,12 @@
   width: 100%;
   height: 5%;
   margin-bottom: -0.5rem;
-
 }
 
 .slash-bar-text {
   padding-left: 3.5%;
 
   color: rgb(1, 92, 1);
-
 }
 
 .slash-bar-text h5 {
@@ -52,7 +47,6 @@
   height: 100%;
   width: 1521px;
 }
-
 
 .background-container button {
   position: absolute;
@@ -78,15 +72,11 @@
   box-shadow: none;
   background-color: #0a4c36;
   transition-delay: var(--duration-default);
-
 }
 
 .background-container button:hover:hover {
-  background: #0A4C36;
+  background: #0a4c36;
 }
-
-
-
 
 /* Shine Effect */
 .background-container button:hover::after {
@@ -117,7 +107,6 @@
 }
 
 .box img {
-
   margin-right: 15%;
   margin-left: 28%;
   margin-top: -1%;
@@ -150,12 +139,11 @@
   display: flex;
 }
 
-
 .bestseller h2 {
   width: 100%;
   align-items: center;
   font-weight: 600;
-  color: #0A4C36;
+  color: #0a4c36;
 }
 
 .products-row2 {
@@ -176,10 +164,9 @@
   padding-top: 200px;
   padding-bottom: 30px;
   padding-left: 60px;
-  background-color: #EFF8F2;
+  background-color: #eff8f2;
   width: 45%;
   margin-top: 6.5%;
-
 }
 
 .container1 {
@@ -195,12 +182,11 @@
   padding-top: 100px;
 }
 
-
 .info2 {
   padding-top: 200px;
   padding-bottom: 30px;
   padding-left: 60px;
-  background-color: #EFF8F2;
+  background-color: #eff8f2;
   width: 45%;
   margin-top: 6.5%;
   margin-left: 4%;
